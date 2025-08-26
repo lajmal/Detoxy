@@ -1,42 +1,50 @@
 # 💭 Detoxy – Quotes App  
 
-Detoxy is a minimalistic **motivational quotes app** built as part of my university mobile app project.  
-It’s designed to showcase **modern Android development tools and best practices**, while staying simple enough for beginners to learn from or contribute to.  
+![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue?logo=kotlin)
+![Compose](https://img.shields.io/badge/Jetpack%20Compose-UI-green?logo=android)
+![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-If you’re looking to:
-- Learn more about **Android development**  
-- Explore **Jetpack Compose & Clean Architecture**  
-- Or find an **easy project to start contributing to open source**  
-
-…then this app is for you 🚀  
+Detoxy is a **minimalistic motivational quotes app** built with modern Android tools and architecture.  
+Originally developed as a **university project**, it’s now a great resource for learning Android development or starting your open-source contribution journey 🚀  
 
 ---
 
 ## 🛠 Built With
 - **Kotlin**  
-- **Jetpack Compose**  
-- **Coroutines & Flow**  
+- **Jetpack Compose** (Modern UI Toolkit)  
+- **Coroutines & Flow** (Async programming)  
 - **MVVM + Clean Architecture**  
 - **Hilt** (Dependency Injection)  
 - **Retrofit** (Networking)  
-- **Room** (Persistence)  
+- **Room** (Local database)  
 - **WorkManager** (Background tasks)  
 
 ---
 
 ## ✨ Features
-- 🌅 Daily fresh motivational quotes  
-- 📂 Save your favorites offline  
+- 🌅 Fresh motivational quotes daily  
+- 📂 Save favorite quotes offline  
 - 📤 Share quotes with friends & family  
 - 🏠 Home screen widget (auto-refreshes every 24 hrs)  
 - 🔔 Daily inspiration via notifications  
 
 ---
 
+## 📸 Screenshots
+> Add screenshots of your app UI (emulator/device) in a folder named `screenshots/`  
+
+<p align="center">
+  <img src="screenshots/home.png" alt="Home screen" width="250"/>
+  <img src="screenshots/favorites.png" alt="Favorites screen" width="250"/>
+</p>
+
+---
+
 ## 🤝 Contributing
 Contributions, bug reports, and feature requests are welcome!  
 
-### Contribution Guide:
+### Contribution Guide
 1. Fork this repository.  
 2. Create your feature/bugfix branch:  
    ```bash
